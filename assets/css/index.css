@@ -4,28 +4,28 @@
     border-bottom: 1px solid #E7E7E7;
     display: flex;
     padding: 13px 0px 13px 0px;
-   
     align-items: center;
-    gap: 350px;}
+    gap: 100px;}
 
 .header li{
     list-style: none;
-    margin-left: 20px;
-    margin-right: 20px;}
+    margin:0px 20px;}
 
 .header ul{
     display: flex;
     flex-direction:row}
 
 
-.firstul{margin-right: auto;}
+/*.firstul{margin-right: auto;
+}*/
 
 .alti{
     color:  #71A894;
     font-size: 18px;
     font-family: Roboto;
     font-weight: 800;
-    letter-spacing: -0.36px;}
+    letter-spacing: -0.36px;
+    width: 150px;}
 
 .dord, .bes{
     color:  #303031;
@@ -35,9 +35,9 @@
     letter-spacing: -0.36px;}
 
 .uc{
-    display: flex;
-    width: 182px;
-    flex-direction: column;
+  
+    width: 170px;
+  
     color: var(--black, #303031);
     font-size: 18px;
     font-family: Roboto;
@@ -49,7 +49,8 @@
     font-size: 32px;
     font-family: Open Sans;
     font-weight: 700;
-    letter-spacing: -1.28px;}
+    letter-spacing: -1.28px;
+    width: 300px;}
 
 .bir{
     width: 68px;
